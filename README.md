@@ -17,6 +17,7 @@ It has a number of nice goodies baked in including:
     - css-loader
     - style-loader
     - sass-loader
+    - svg-url-loader
     - node-sass
 * Webpack-cli
 * Webpack-dev-server
