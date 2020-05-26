@@ -4,6 +4,8 @@
   "description": "This is a project constructed to be my portfolio.",
   "main": "webpack.config.js",
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
     "start": "webpack-dev-server"
@@ -18,13 +20,14 @@
   "bugs": {
     "url": "https://github.com/geovanasilva/geovanasilva/issues"
   },
-  "homepage": "https://geovanasilva.github.io/",
+  "homepage": "https://geovanasilva.github.io/geovanasilva",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.0",
