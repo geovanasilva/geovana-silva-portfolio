@@ -1,0 +1,49 @@
+$purple:#4758FC;
+$blue: #18FFFF;
+$fuschia: #E040FB;
+$red: #F50057;
+$black: #252525;
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap');
+
+@mixin linearGradient($top, $bottom) {
+  background-color: $top;
+  background: linear-gradient($top, $bottom);
+}
+
+body {
+  @include linearGradient($purple, $fuschia);
+  color: white;
+  font-family: 'Muli', sans-serif;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 35px;
+}
+
+main, footer {
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+main > img {
+  width: 350px;
+}
+
+.social-links > a{
+  padding: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}

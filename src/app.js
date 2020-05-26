@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/styles.scss';
+import '@assets/css/global.scss';
+import Home from '@containers/Home';
 
-const app = <p>React, Webpack and Babel</p>;
+const app = <Home/>;
 
 ReactDOM.render(app, document.getElementById('root'));
