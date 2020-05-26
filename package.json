@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/geovanasilva/geovanasilva/issues"
   },
-  "homepage": "/geovanasilva/",
+  "homepage": "https://geovanasilva.github.io/",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
