@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geovanasilva/geovanasilva.git"
+    "url": "git+https://github.com/geovanasilva/geovana-silva-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/geovanasilva/geovanasilva/issues"
+    "url": "https://github.com/geovanasilva/geovana-silva-portfolio/issues"
   },
   "homepage": "https://geovanasilva.github.io/geovanasilva",
   "devDependencies": {
