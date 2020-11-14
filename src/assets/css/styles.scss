@@ -1,0 +1,178 @@
+$purple: #4758fc;
+$blue: #18ffff;
+$fuschia: #e040fb;
+$red: #f50057;
+$black: #252525;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  border: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  background: #121214;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin: 0 60px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.language-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 20px 0;
+  cursor: not-allowed;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  border-radius: 10px;
+  background: #202024;
+  margin-bottom: 23px;
+  padding: 15px 25px;
+  cursor: not-allowed;
+}
+
+.card > img {
+  margin-left: 50px;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  padding-left: 160px;
+  max-width: 550px;
+}
+
+.about > h1 {
+  margin-bottom: 15px;
+}
+
+.about > h2 {
+  margin-bottom: 40px;
+}
+
+.about > h3 {
+  margin-bottom: 15px;
+}
+
+.about > p {
+  margin-bottom: 15px;
+  color: #A8A6AB;
+}
+
+.skills {
+  margin-top: 60px;
+}
+
+.skills > p {
+  font-weight: bold;
+}
+
+.skill-badge {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 86px;
+  height: 87px;
+  background: #202024;
+  margin-top: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.whatsapp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: #202024;
+  border-radius: 10px;
+  height: 56px;
+  width: 321px;
+  cursor: not-allowed;
+}
+
+.whatsapp > a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 60px;
+  margin-bottom: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-social {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile {
+  border: 3px solid $purple;
+  border-radius: 50%;
+  height: 47px;
+  padding: 5px;
+  width: 47px;
+}
+
+.socials {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.socials > a {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.socials > img {
+  margin: 0 20px;
+}
+
+footer > img {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  height: 256px;
+  width: 275px;
+}
